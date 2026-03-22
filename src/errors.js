@@ -1,5 +1,5 @@
 export const errors = {
-  NOT_CONFIGURED: 'Not configured. Run `npx askr -m` to set up.',
+  NOT_CONFIGURED: 'Not configured. Run `npx @sweatent/askr -m` to set up.',
   EMPTY_RESPONSE: 'Empty response received. Check your API configuration.',
   TIMEOUT: (id) => `Request timed out. Session: ${id}. Use check({id: "${id}"}) to retry.`,
   PERMANENT_TIMEOUT: (id) => `Session ${id} expired after 2 retries. Please re-ask.`,

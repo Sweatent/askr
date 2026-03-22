@@ -50,7 +50,7 @@ npx @sweatent/askr
   "mcpServers": {
     "askr": {
       "command": "npx",
-      "args": ["askr"]
+      "args": ["@sweatent/askr"]
     }
   }
 }
@@ -71,7 +71,7 @@ claude mcp add askr -- npx @sweatent/askr
   "mcpServers": {
     "askr": {
       "command": "npx",
-      "args": ["askr"]
+      "args": ["@sweatent/askr"]
     }
   }
 }

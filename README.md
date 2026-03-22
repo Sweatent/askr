@@ -46,7 +46,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "askr": {
       "command": "npx",
-      "args": ["askr"]
+      "args": ["@sweatent/askr"]
     }
   }
 }
@@ -67,7 +67,7 @@ Or manually edit `.claude/settings.json`:
   "mcpServers": {
     "askr": {
       "command": "npx",
-      "args": ["askr"]
+      "args": ["@sweatent/askr"]
     }
   }
 }
